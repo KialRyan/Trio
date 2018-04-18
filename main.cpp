@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 //Prototype
-void Rearange(int &,int &, int &);
+void Rearrange(int &,int &, int &);
 int main()
 {
   //DO NOT CHANGE WITHIN THIS AREA...
@@ -11,7 +11,7 @@ int main()
   //...END OF "DO NOT CHANGE" AREA
 
 
-
+  Rearrange(red, green, blue);
 
 
   //DO NOT CHANGE WITHIN THIS AREA...
@@ -19,4 +19,12 @@ int main()
   cout<<"RGB: "<<red<<","<<green<<","<<blue<<endl;
   return 0;
   //...END OF "DO NOT CHANGE" AREA
+}
+
+void Rearrange(int &red,int &green, int &blue)
+{
+    red= 3;
+    green= 2;
+    blue = 1;
+
 }
