@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+//Prototype
+void Rearange(int &,int &, int &);
 int main()
 {
   //DO NOT CHANGE WITHIN THIS AREA...
